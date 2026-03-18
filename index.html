@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LinkedIn Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">LinkedIn</div>
+  <input class="search" placeholder="Search">
+  <div class="menu">
+    <span>Home</span>
+    <span>Network</span>
+    <span>Jobs</span>
+    <span>Messaging</span>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="feed">
+
+    <div class="card profile-main">
+      <div class="cover"></div>
+      <img class="profile-pic" src="https://via.placeholder.com/120">
+      <div class="profile-info">
+        <h2>Jeswin G</h2>
+        <p>Web Developer</p>
+        <p>India</p>
+        <button>Edit Profile</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <textarea id="postInput" placeholder="Start a post..."></textarea>
+      <button onclick="addPost()">Post</button>
+    </div>
+
+    <div id="posts"></div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

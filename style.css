@@ -1,0 +1,56 @@
+body {
+  font-family: Arial;
+  background: #f3f2ef;
+}
+
+header {
+  display:flex;
+  justify-content:space-between;
+  padding:10px;
+  background:white;
+}
+
+.logo { color:#0a66c2; font-weight:bold; }
+
+.container {
+  display:flex;
+  justify-content:center;
+  padding:20px;
+}
+
+.feed { width:50%; }
+
+.card {
+  background:white;
+  padding:15px;
+  margin-bottom:15px;
+  border-radius:10px;
+}
+
+.cover {
+  height:150px;
+  background:#0a66c2;
+}
+
+.profile-pic {
+  width:120px;
+  border-radius:50%;
+  position:relative;
+  top:-60px;
+}
+
+.profile-info {
+  margin-top:-40px;
+}
+
+textarea {
+  width:100%;
+  padding:10px;
+}
+
+button {
+  background:#0a66c2;
+  color:white;
+  border:none;
+  padding:8px;
+}
